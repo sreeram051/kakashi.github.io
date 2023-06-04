@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Anime</a>
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Ongoing</a>
+        <a href="#">Upcoming</a>
+        <a href="#">About</a>
+    </nav>
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+    </header>
+
+   <section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>Big 3</span>
+                <h3>Most Watched anime</h3>
+                <a href="#" class="btn">Watch now</a>
+            </div>
+            <div class="img">
+                <img src="image/onepiece.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Big 3</span>
+                <h3>Most Watched anime</h3>
+                <a href="https://sanji.to/watch/naruto-677?ep=12352" class="btn">Watch now</a>
+            </div>
+            <div class="img">
+                <img src="image/big 2.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Big 3</span>
+                <h3>Most Watched anime</h3>
+                <a href="#" class="btn">Watch now</a>
+            </div>
+            <div class="img">
+                <img src="image/big 3.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left"  onclick="next()"></div>
+
+   </section>
+
+   <section class="banner-container">
+
+    <div class="banner">
+        <img src="image/doctor.jpg" alt="">
+        <div class="content">
+        <span>Ongoing</span>
+        <h3>Dotor stone</h3>
+        <a href="" class="btn">Watch Now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/hell.jpg" alt="">
+        <div class="content">
+        <span>Ongoing</span>
+        <h3>Hell's paradies</h3>
+        <a href="" class="btn">Watch Now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/demon.jpg" alt="">
+        <div class="content">
+        <span>Ongoing</span>
+        <h3>Demon slayer</h3>
+        <a href="" class="btn">Watch Now</a>
+    </div>
+    </div>
+
+   </section>
+
+   <div class="heading">
+    <h1>Our webpage</h1>
+    
+   </div>
+
+   <section class="category">
+    <h1 class="title">Our<span>category</span></h1>
+
+    <div class="box-container">
+
+        <a href="" class="box">
+            <img src="image/fullmetal.jpg" alt="">
+            <h3>Adventure</h3>
+        </a>
+
+        <a href="" class="box">
+            <img src="image/attack on titan.jpg" alt="">
+            <h3>Action Mystery</h3>
+        </a>
+
+        <a href="" class="box">
+            <img src="image/gintama.jpg" alt="">
+            <h3>Comedy</h3>
+        </a>
+
+        <a href="" class="box">
+            <img src="image/monster.jpg" alt="">
+            <h3>Phylogocial</h3>
+        </a>
+
+        <a href="" class="box">
+            <img src="image/love is war.jpg" alt="">
+            <h3>Romance</h3>
+        </a>
+
+    </div> 
+   </section>
+
+   <section class="products">
+    <h1 class="title">Most<span>Favorite</span></h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/jujustu.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>jujutsu kaisen</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/black clover.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>black clover</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/chainsaw.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>chainsaw man</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/hero.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>My Hero Academia</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/hxh.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Hunter x Hunter</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/one punch.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>One Punch man</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/tokyo.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>tokyo ghoul</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/Untitled design.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Spy x family</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/fariy.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Fairy Tail</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-download"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="image/vinland.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Vinland Saga</h3>
+                <div class="price">Watch Now</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+   </section>
+
+   <div class="heading">
+    <h1>About me</h1>
+   </div>
+
+   <section class="about">
+    <div class="img">
+        <img src="image/zoro luffy.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>Welcome to our page</span>
+        <h3>Watch anime online</h3>
+        <p>Zoro.to is a free site to watch anime and you can even download subbed or dubbed anime in ultra HD quality without any 
+            registration or payment. By having No Ads in all kinds, we are trying to make it the 
+            safest site for free anime.</p>
+        <p>Yes we are, we do have only one Ads to cover the server cost and we keep scanning the ads 24/7 to make sure all are clean, 
+            If you find any ads that is suspicious, please forward us the info and we will remove it.</p>
+            <a href="" class="btn">Read more</a>
+    </div>
+
+   </section>
+
+
+   <div class="heading">
+        <h1>Contact me</h1>
+   </div>
+
+   <div class="space">
+
+   </div>
+
+
+   <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Ongoing</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Upcoming</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> About</a>
+        </div>
+
+        <div class="box">
+            <h3>Extra links</h3>
+            <a href=""><i class="fas fa-arrow-right"></i> Ongoing anime</a>
+            <a href=""><i class="fas fa-arrow-right"></i> my Favorite</a>
+            <a href=""><i class="fas fa-arrow-right"></i> my watchlist</a>
+            <a href=""><i class="fas fa-arrow-right"></i> trems or use</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow for more updates</h3>
+            <a href=""> <i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href=""> <i class="fa-brands fa-twitter"></i> Twitter</a>
+            <a href=""> <i class="fa-brands fa-youtube"></i> Youtube </a>
+            <a href=""> <i class="fa-brands fa-github"></i> Github </a>
+            
+        </div>
+
+    </div>
+   </section>
+
+ <section class="credit">created by frontend developer || Sree ram M</section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
